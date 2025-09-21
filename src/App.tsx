@@ -7,15 +7,15 @@ import { HelmetProvider } from "react-helmet-async";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Services from "./pages/Services";
-import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
-import Privacy from "./pages/Privacy";
-import Terms from "./pages/Terms";
-import Disclaimer from "./pages/Disclaimer";
-import NotFound from "./pages/NotFound";
+import Home from "@/pages/Home";
+import About from "@/pages/About";
+import Services from "@/pages/Services";
+import Portfolio from "@/pages/Portfolio";
+import Contact from "@/pages/Contact";
+import Privacy from "@/pages/Privacy";
+import Terms from "@/pages/Terms";
+import Disclaimer from "@/pages/Disclaimer";
+import NotFound from "@/pages/NotFound";
 
 const queryClient = new QueryClient();
 
