@@ -14,6 +14,8 @@ import {
   Star
 } from "lucide-react";
 import ceoCasualImage from "@/assets/ceo-casual.jpg";
+import ceoFormalImage from "@/assets/ceo-formal.jpg";
+import ceoOutdoorImage from "@/assets/ceo-outdoor.jpg";
 
 const Home = () => {
   const stats = [
@@ -158,16 +160,41 @@ const Home = () => {
             </div>
 
             <div className="relative">
-              <div className="card-3d p-8 backdrop-blur-sm">
-                <img
-                  src={ceoCasualImage}
-                  alt="Sidhanta Kumar Behera - CEO and Founder of Boldsack Media, Digital Marketing Expert"
-                  className="w-full h-auto rounded-2xl"
-                  loading="eager"
-                />
-                <div className="absolute -bottom-4 -right-4 bg-accent text-accent-foreground px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
-                  <Award className="w-4 h-4 inline mr-2" />
-                  CEO & Founder
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {/* Main CEO Image - Formal */}
+                <div className="card-3d p-6 backdrop-blur-sm md:col-span-2">
+                  <img
+                    src={ceoFormalImage}
+                    alt="Sidhanta Kumar Behera CEO Boldsack Media - Digital Marketing Expert and Founder"
+                    className="w-full h-auto rounded-2xl object-cover max-h-96"
+                    loading="eager"
+                    title="Sidhanta Kumar Behera - CEO & Founder of Boldsack Media Digital Marketing Agency"
+                  />
+                  <div className="absolute -bottom-4 -right-4 bg-accent text-accent-foreground px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
+                    <Award className="w-4 h-4 inline mr-2" />
+                    CEO & Founder
+                  </div>
+                </div>
+                
+                {/* Secondary CEO Images */}
+                <div className="card-3d p-4 backdrop-blur-sm">
+                  <img
+                    src={ceoCasualImage}
+                    alt="Sidhanta Kumar Behera Boldsack Media CEO - Casual Professional Photo"
+                    className="w-full h-auto rounded-xl object-cover max-h-48"
+                    loading="eager"
+                    title="Boldsack Media Owner - Sidhanta Kumar Behera Professional Portrait"
+                  />
+                </div>
+                
+                <div className="card-3d p-4 backdrop-blur-sm">
+                  <img
+                    src={ceoOutdoorImage}
+                    alt="Sidhanta Kumar Behera Owner Boldsack Media - Outdoor Professional Photo"
+                    className="w-full h-auto rounded-xl object-cover max-h-48"
+                    loading="eager"
+                    title="Boldsack Media CEO Sidhanta Kumar Behera - Digital Marketing Professional"
+                  />
                 </div>
               </div>
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-primary/20 rounded-full blur-xl"></div>
@@ -217,8 +244,90 @@ const Home = () => {
         </div>
       </section>
 
-      {/* About Preview Section */}
+      {/* CEO Showcase Section */}
       <section className="py-20 bg-card/50">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl lg:text-5xl font-bold mb-6">
+              Meet Our <span className="text-gradient">CEO & Founder</span>
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Sidhanta Kumar Behera, the visionary CEO and founder of Boldsack Media, leading digital marketing innovation in Bhadrak, Odisha.
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-3 gap-8 items-center">
+            {/* CEO Images Gallery */}
+            <div className="lg:col-span-2 grid md:grid-cols-2 gap-6">
+              <div className="card-3d p-4 backdrop-blur-sm">
+                <img
+                  src={ceoFormalImage}
+                  alt="Sidhanta Kumar Behera CEO Boldsack Media Professional Portrait"
+                  className="w-full h-64 object-cover rounded-xl"
+                  loading="eager"
+                  title="Boldsack Media CEO - Sidhanta Kumar Behera Digital Marketing Expert"
+                />
+                <div className="mt-4 text-center">
+                  <h3 className="font-semibold text-foreground">Professional Portrait</h3>
+                  <p className="text-sm text-muted-foreground">CEO & Digital Marketing Expert</p>
+                </div>
+              </div>
+
+              <div className="card-3d p-4 backdrop-blur-sm">
+                <img
+                  src={ceoCasualImage}
+                  alt="Sidhanta Kumar Behera Boldsack Media Owner Casual Photo"
+                  className="w-full h-64 object-cover rounded-xl"
+                  loading="eager"
+                  title="Boldsack Media Owner Sidhanta Kumar Behera - Marketing Professional"
+                />
+                <div className="mt-4 text-center">
+                  <h3 className="font-semibold text-foreground">Casual Professional</h3>
+                  <p className="text-sm text-muted-foreground">Founder & Marketing Strategist</p>
+                </div>
+              </div>
+
+              <div className="card-3d p-4 backdrop-blur-sm md:col-span-2">
+                <img
+                  src={ceoOutdoorImage}
+                  alt="Sidhanta Kumar Behera Boldsack Media CEO Outdoor Professional Photo"
+                  className="w-full h-64 object-cover rounded-xl"
+                  loading="eager"
+                  title="Sidhanta Kumar Behera - Boldsack Media CEO and Digital Marketing Specialist"
+                />
+                <div className="mt-4 text-center">
+                  <h3 className="font-semibold text-foreground">Outdoor Professional</h3>
+                  <p className="text-sm text-muted-foreground">Visionary Leader & Brand Strategist</p>
+                </div>
+              </div>
+            </div>
+
+            {/* CEO Information */}
+            <div className="space-y-6">
+              <div className="card-3d p-6 bg-primary/10">
+                <Award className="w-8 h-8 text-primary mb-4" />
+                <h4 className="font-semibold mb-2">Sidhanta Kumar Behera</h4>
+                <p className="text-sm text-muted-foreground">CEO & Founder, Digital Marketing Expert</p>
+              </div>
+
+              <div className="card-3d p-6 bg-secondary/10">
+                <Users className="w-8 h-8 text-secondary mb-4" />
+                <h4 className="font-semibold mb-2">Leadership Excellence</h4>
+                <p className="text-sm text-muted-foreground">Leading 900+ successful client campaigns</p>
+              </div>
+
+              <div className="card-3d p-6 bg-accent/10">
+                <Target className="w-8 h-8 text-accent mb-4" />
+                <h4 className="font-semibold mb-2">Strategic Vision</h4>
+                <p className="text-sm text-muted-foreground">5+ years transforming digital marketing in Odisha</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* About Preview Section */}
+      <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
