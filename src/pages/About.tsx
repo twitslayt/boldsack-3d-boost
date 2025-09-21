@@ -56,7 +56,7 @@ const About = () => {
       "description": "Digital Marketing Agency based in Bhadrak, Odisha, specializing in brand development, SEO, and creative strategies",
       "founder": {
         "@type": "Person",
-        "name": "Siddharth Kumar",
+        "name": "Sidhanta Kumar Behera",
         "jobTitle": "CEO & Founder",
         "image": "/ceo-formal.jpg",
         "sameAs": [
@@ -77,9 +77,9 @@ const About = () => {
   return (
     <>
       <SEOHead 
-        title="About Boldsack Media | Digital Marketing Agency Founded by Siddharth Kumar"
-        description="Learn about Boldsack Media, founded by CEO Siddharth Kumar in Bhadrak, Odisha. Our mission: transforming brand visions into reality with innovative marketing solutions."
-        keywords="Boldsack Media about, Siddharth Kumar CEO, digital marketing agency Bhadrak, company history, marketing experts Odisha"
+        title="About Boldsack Media | Digital Marketing Agency Founded by Sidhanta Kumar Behera"
+        description="Learn about Boldsack Media, founded by CEO Sidhanta Kumar Behera in Bhadrak, Odisha. Our mission: transforming brand visions into reality with innovative marketing solutions."
+        keywords="Boldsack Media about, Sidhanta Kumar Behera CEO, digital marketing agency Bhadrak, company history, marketing experts Odisha"
         structuredData={structuredData}
       />
 
@@ -256,21 +256,21 @@ const About = () => {
               <div className="space-y-6">
                 <div>
                   <h3 className="text-3xl font-bold text-gradient mb-2">
-                    Siddharth Kumar
+                    Sidhanta Kumar Behera
                   </h3>
                   <p className="text-xl text-muted-foreground">
                     CEO & Founder, Boldsack Media
                   </p>
                 </div>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  As the visionary founder and CEO of Boldsack Media, Siddharth Kumar brings 
+                  As the visionary founder and CEO of Boldsack Media, Sidhanta Kumar Behera brings 
                   innovative thinking and strategic expertise to every client engagement. 
                   Based in Bhadrak, Odisha, he has built the agency from the ground up with 
                   a commitment to delivering exceptional marketing solutions.
                 </p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
                   With years of experience in digital marketing, brand development, and 
-                  creative strategy, Siddharth leads our team in transforming business 
+                  creative strategy, Sidhanta leads our team in transforming business 
                   visions into market realities. His passion for innovation drives our 
                   agency's success in helping over 900+ clients achieve their marketing goals.
                 </p>
@@ -282,7 +282,7 @@ const About = () => {
                     href="https://www.linkedin.com/in/sidhanta-kumar-behera-90428226b" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    aria-label="Connect with Siddharth Kumar on LinkedIn"
+                    aria-label="Connect with Sidhanta Kumar Behera on LinkedIn"
                   >
                     <Linkedin className="w-4 h-4 mr-2" />
                     LinkedIn
@@ -293,7 +293,7 @@ const About = () => {
                     href="https://www.instagram.com/aura_siddharth" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    aria-label="Follow Siddharth Kumar on Instagram"
+                    aria-label="Follow Sidhanta Kumar Behera on Instagram"
                   >
                     <Instagram className="w-4 h-4 mr-2" />
                     Instagram
@@ -319,7 +319,7 @@ const About = () => {
                   <div className="card-3d overflow-hidden">
                     <img
                       src={ceoFormalImage}
-                      alt="Siddharth Kumar - CEO and Founder of Boldsack Media in formal business attire"
+                      alt="Sidhanta Kumar Behera - CEO and Founder of Boldsack Media in formal business attire"
                       className="w-full h-64 object-cover"
                       loading="lazy"
                     />
@@ -329,7 +329,7 @@ const About = () => {
                   <div className="card-3d overflow-hidden">
                     <img
                       src={ceoOutdoorImage}
-                      alt="Siddharth Kumar - Boldsack Media CEO in professional outdoor setting"
+                      alt="Sidhanta Kumar Behera - Boldsack Media CEO in professional outdoor setting"
                       className="w-full h-64 object-cover"
                       loading="lazy"
                     />

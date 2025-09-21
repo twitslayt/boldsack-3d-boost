@@ -95,7 +95,7 @@ const Home = () => {
     },
     "founder": {
       "@type": "Person",
-      "name": "Siddharth Kumar",
+      "name": "Sidhanta Kumar Behera",
       "jobTitle": "CEO & Founder"
     }
   };
@@ -161,7 +161,7 @@ const Home = () => {
               <div className="card-3d p-8 backdrop-blur-sm">
                 <img
                   src={ceoCasualImage}
-                  alt="Siddharth Kumar - CEO and Founder of Boldsack Media, Digital Marketing Expert"
+                  alt="Sidhanta Kumar Behera - CEO and Founder of Boldsack Media, Digital Marketing Expert"
                   className="w-full h-auto rounded-2xl"
                   loading="eager"
                 />
