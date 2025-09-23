@@ -226,10 +226,10 @@ const Home = () => {
                 <div className="aspect-square overflow-hidden rounded-xl">
                   <img
                     src={ceoFormalImage}
-                    alt="CEO and founder of Boldsack Media"
+                    alt="sidhanta kumar behera founder and CEO of Boldsack media"
                     className="w-full h-full object-cover object-center"
                     loading="eager"
-                    title="CEO and founder of Boldsack Media - Sidhanta Kumar Behera"
+                    title="sidhanta kumar behera founder and CEO of Boldsack media"
                   />
                 </div>
                 <div className="mt-4 text-center">
@@ -242,10 +242,10 @@ const Home = () => {
                 <div className="aspect-square overflow-hidden rounded-xl">
                   <img
                     src={ceoCasualImage}
-                    alt="CEO and founder of Boldsack Media"
+                    alt="sidhanta kumar behera founder and CEO of Boldsack media"
                     className="w-full h-full object-cover object-center"
                     loading="eager"
-                    title="CEO and founder of Boldsack Media - Sidhanta Kumar Behera"
+                    title="sidhanta kumar behera founder and CEO of Boldsack media"
                   />
                 </div>
                 <div className="mt-4 text-center">
@@ -258,10 +258,10 @@ const Home = () => {
                 <div className="aspect-square overflow-hidden rounded-xl">
                   <img
                     src={ceoOutdoorImage}
-                    alt="CEO and founder of Boldsack Media"
+                    alt="sidhanta kumar behera founder and CEO of Boldsack media"
                     className="w-full h-full object-cover object-center"
                     loading="eager"
-                    title="CEO and founder of Boldsack Media - Sidhanta Kumar Behera"
+                    title="sidhanta kumar behera founder and CEO of Boldsack media"
                   />
                 </div>
                 <div className="mt-4 text-center">
