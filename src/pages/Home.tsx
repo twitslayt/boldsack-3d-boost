@@ -258,15 +258,17 @@ const Home = () => {
 
           <div className="grid lg:grid-cols-3 gap-8 items-center">
             {/* CEO Images Gallery */}
-            <div className="lg:col-span-2 grid md:grid-cols-2 gap-6">
+            <div className="lg:col-span-2 grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="card-3d p-4 backdrop-blur-sm">
-                <img
-                  src={ceoFormalImage}
-                  alt="Sidhanta Kumar Behera CEO Boldsack Media Professional Portrait"
-                  className="w-full h-64 object-cover rounded-xl"
-                  loading="eager"
-                  title="Boldsack Media CEO - Sidhanta Kumar Behera Digital Marketing Expert"
-                />
+                <div className="aspect-square overflow-hidden rounded-xl">
+                  <img
+                    src={ceoFormalImage}
+                    alt="CEO and founder of Boldsack Media"
+                    className="w-full h-full object-cover object-center"
+                    loading="eager"
+                    title="CEO and founder of Boldsack Media - Sidhanta Kumar Behera"
+                  />
+                </div>
                 <div className="mt-4 text-center">
                   <h3 className="font-semibold text-foreground">Professional Portrait</h3>
                   <p className="text-sm text-muted-foreground">CEO & Digital Marketing Expert</p>
@@ -274,27 +276,31 @@ const Home = () => {
               </div>
 
               <div className="card-3d p-4 backdrop-blur-sm">
-                <img
-                  src={ceoCasualImage}
-                  alt="Sidhanta Kumar Behera Boldsack Media Owner Casual Photo"
-                  className="w-full h-64 object-cover rounded-xl"
-                  loading="eager"
-                  title="Boldsack Media Owner Sidhanta Kumar Behera - Marketing Professional"
-                />
+                <div className="aspect-square overflow-hidden rounded-xl">
+                  <img
+                    src={ceoCasualImage}
+                    alt="CEO and founder of Boldsack Media"
+                    className="w-full h-full object-cover object-center"
+                    loading="eager"
+                    title="CEO and founder of Boldsack Media - Sidhanta Kumar Behera"
+                  />
+                </div>
                 <div className="mt-4 text-center">
                   <h3 className="font-semibold text-foreground">Casual Professional</h3>
                   <p className="text-sm text-muted-foreground">Founder & Marketing Strategist</p>
                 </div>
               </div>
 
-              <div className="card-3d p-4 backdrop-blur-sm md:col-span-2">
-                <img
-                  src={ceoOutdoorImage}
-                  alt="Sidhanta Kumar Behera Boldsack Media CEO Outdoor Professional Photo"
-                  className="w-full h-64 object-cover rounded-xl"
-                  loading="eager"
-                  title="Sidhanta Kumar Behera - Boldsack Media CEO and Digital Marketing Specialist"
-                />
+              <div className="card-3d p-4 backdrop-blur-sm">
+                <div className="aspect-square overflow-hidden rounded-xl">
+                  <img
+                    src={ceoOutdoorImage}
+                    alt="CEO and founder of Boldsack Media"
+                    className="w-full h-full object-cover object-center"
+                    loading="eager"
+                    title="CEO and founder of Boldsack Media - Sidhanta Kumar Behera"
+                  />
+                </div>
                 <div className="mt-4 text-center">
                   <h3 className="font-semibold text-foreground">Outdoor Professional</h3>
                   <p className="text-sm text-muted-foreground">Visionary Leader & Brand Strategist</p>
