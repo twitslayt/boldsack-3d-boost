@@ -160,43 +160,6 @@ const Home = () => {
             </div>
 
             <div className="relative">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {/* Main CEO Image - Formal */}
-                <div className="card-3d p-6 backdrop-blur-sm md:col-span-2">
-                  <img
-                    src={ceoFormalImage}
-                    alt="Sidhanta Kumar Behera CEO Boldsack Media - Digital Marketing Expert and Founder"
-                    className="w-full h-auto rounded-2xl object-cover max-h-96"
-                    loading="eager"
-                    title="Sidhanta Kumar Behera - CEO & Founder of Boldsack Media Digital Marketing Agency"
-                  />
-                  <div className="absolute -bottom-4 -right-4 bg-accent text-accent-foreground px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
-                    <Award className="w-4 h-4 inline mr-2" />
-                    CEO & Founder
-                  </div>
-                </div>
-                
-                {/* Secondary CEO Images */}
-                <div className="card-3d p-4 backdrop-blur-sm">
-                  <img
-                    src={ceoCasualImage}
-                    alt="Sidhanta Kumar Behera Boldsack Media CEO - Casual Professional Photo"
-                    className="w-full h-auto rounded-xl object-cover max-h-48"
-                    loading="eager"
-                    title="Boldsack Media Owner - Sidhanta Kumar Behera Professional Portrait"
-                  />
-                </div>
-                
-                <div className="card-3d p-4 backdrop-blur-sm">
-                  <img
-                    src={ceoOutdoorImage}
-                    alt="Sidhanta Kumar Behera Owner Boldsack Media - Outdoor Professional Photo"
-                    className="w-full h-auto rounded-xl object-cover max-h-48"
-                    loading="eager"
-                    title="Boldsack Media CEO Sidhanta Kumar Behera - Digital Marketing Professional"
-                  />
-                </div>
-              </div>
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-primary/20 rounded-full blur-xl"></div>
               <div className="absolute -bottom-8 right-8 w-32 h-32 bg-secondary/20 rounded-full blur-xl"></div>
             </div>
