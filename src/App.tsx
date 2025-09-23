@@ -10,6 +10,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Home from "@/pages/Home";
 import About from "@/pages/About";
 import Services from "@/pages/Services";
+import ServicesCharges from "@/pages/ServicesCharges";
 import Portfolio from "@/pages/Portfolio";
 import Contact from "@/pages/Contact";
 import Privacy from "@/pages/Privacy";
@@ -33,6 +34,7 @@ const App = () => (
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/services" element={<Services />} />
+                <Route path="/services-charges" element={<ServicesCharges />} />
                 <Route path="/portfolio" element={<Portfolio />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/privacy" element={<Privacy />} />
