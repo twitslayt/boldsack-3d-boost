@@ -20,7 +20,7 @@ import ceoOutdoorImage from "@/assets/ceo-outdoor.jpg";
 const Home = () => {
   const stats = [
     { number: "1500+", label: "Successful Campaigns" },
-    { number: "900+", label: "Satisfied Clients" },
+    { number: "1100+", label: "Satisfied Clients" },
     { number: "700+", label: "Positive Reviews" },
     { number: "5+", label: "Years Experience" }
   ];
@@ -282,7 +282,7 @@ const Home = () => {
               <div className="card-3d p-6 bg-secondary/10">
                 <Users className="w-8 h-8 text-secondary mb-4" />
                 <h4 className="font-semibold mb-2">Leadership Excellence</h4>
-                <p className="text-sm text-muted-foreground">Leading 900+ successful client campaigns</p>
+                <p className="text-sm text-muted-foreground">Leading 1100+ successful client campaigns</p>
               </div>
 
               <div className="card-3d p-6 bg-accent/10">
@@ -339,7 +339,7 @@ const Home = () => {
                 <div className="space-y-4">
                   <div className="card-3d p-6 bg-primary/10">
                     <Users className="w-8 h-8 text-primary mb-4" />
-                    <h4 className="font-semibold mb-2">900+ Clients</h4>
+                    <h4 className="font-semibold mb-2">1100+ Clients</h4>
                     <p className="text-sm text-muted-foreground">Satisfied customers worldwide</p>
                   </div>
                   <div className="card-3d p-6 bg-secondary/10">
