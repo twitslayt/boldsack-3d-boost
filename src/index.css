@@ -93,15 +93,54 @@
   }
 
   .light {
-    /* Light mode colors for future use */
-    --background: 0 0% 100%;
-    --foreground: 220 13% 8%;
-    --card: 0 0% 100%;
+    /* Core Brand Colors - Light Mode */
+    --primary: 24 100% 55%; /* Keep Orange #FF7700 */
+    --primary-glow: 24 100% 65%; /* Lighter Orange #FF9933 */
+    --primary-foreground: 0 0% 100%; /* Pure White */
+    
+    --secondary: 261 83% 58%; /* Keep Electric Purple #8B5CF6 */
+    --secondary-glow: 261 83% 68%; /* Lighter Purple #A78BFA */
+    --secondary-foreground: 0 0% 100%;
+    
+    --accent: 190 100% 45%; /* Slightly darker cyan for light mode */
+    --accent-foreground: 0 0% 100%;
+    
+    /* Surface Colors - Light Theme */
+    --background: 0 0% 98%; /* Very light gray #FAFAFA */
+    --background-light: 0 0% 95%; /* Slightly darker light */
+    --foreground: 220 13% 8%; /* Dark text */
+    
+    --card: 0 0% 100%; /* Pure white cards */
     --card-foreground: 220 13% 8%;
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --muted: 220 13% 96%;
-    --muted-foreground: 220 13% 45%;
+    --card-border: 220 13% 90%; /* Light border */
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 13% 8%;
+    
+    /* UI Elements - Light Mode */
+    --muted: 220 13% 96%; /* Very light gray */
+    --muted-foreground: 220 13% 45%; /* Medium gray text */
+    
+    --border: 220 13% 90%; /* Light borders */
+    --input: 220 13% 96%; /* Light input backgrounds */
+    --ring: 24 100% 55%; /* Keep primary for focus rings */
+    
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+    
+    /* 3D & Effects - Light Mode */
+    --shadow-color: 220 13% 60%; /* Darker shadows for light mode */
+    --glow-primary: 24 100% 55%;
+    --glow-secondary: 261 83% 58%;
+    
+    /* Light Mode Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    --gradient-secondary: linear-gradient(135deg, hsl(var(--secondary)), hsl(var(--secondary-glow)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--secondary)) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(var(--card)), hsl(var(--background-light)));
+    --gradient-mesh: radial-gradient(circle at 20% 50%, hsl(var(--primary) / 0.1) 0%, transparent 50%), 
+                     radial-gradient(circle at 80% 20%, hsl(var(--secondary) / 0.15) 0%, transparent 50%),
+                     radial-gradient(circle at 40% 80%, hsl(var(--accent) / 0.08) 0%, transparent 50%);
   }
 }
 
