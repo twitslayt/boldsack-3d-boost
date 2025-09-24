@@ -13,9 +13,9 @@ import {
   Play,
   Star
 } from "lucide-react";
-import ceoCasualImage from "@/assets/ceo-casual.jpg";
-import ceoFormalImage from "@/assets/ceo-formal.jpg";
-import ceoOutdoorImage from "@/assets/ceo-outdoor.jpg";
+import ceoCasualImage from "@/assets/boldsack-media-owner-2.jpg";
+import ceoFormalImage from "@/assets/boldsack-media-owner-1.jpg";
+import ceoOutdoorImage from "@/assets/boldsack-media-owner-3.jpg";
 
 const Home = () => {
   const stats = [
@@ -226,10 +226,10 @@ const Home = () => {
                 <div className="aspect-square overflow-hidden rounded-xl">
                   <img
                     src={ceoFormalImage}
-                    alt="sidhanta kumar behera founder and CEO of Boldsack media"
+                    alt="CEO of Boldsack media"
                     className="w-full h-full object-cover object-center"
                     loading="eager"
-                    title="sidhanta kumar behera founder and CEO of Boldsack media"
+                    title="CEO of Boldsack media"
                   />
                 </div>
                 <div className="mt-4 text-center">
@@ -242,10 +242,10 @@ const Home = () => {
                 <div className="aspect-square overflow-hidden rounded-xl">
                   <img
                     src={ceoCasualImage}
-                    alt="sidhanta kumar behera founder and CEO of Boldsack media"
+                    alt="CEO of Boldsack media"
                     className="w-full h-full object-cover object-center"
                     loading="eager"
-                    title="sidhanta kumar behera founder and CEO of Boldsack media"
+                    title="CEO of Boldsack media"
                   />
                 </div>
                 <div className="mt-4 text-center">
@@ -258,10 +258,10 @@ const Home = () => {
                 <div className="aspect-square overflow-hidden rounded-xl">
                   <img
                     src={ceoOutdoorImage}
-                    alt="sidhanta kumar behera founder and CEO of Boldsack media"
+                    alt="CEO of Boldsack media"
                     className="w-full h-full object-cover object-center"
                     loading="eager"
-                    title="sidhanta kumar behera founder and CEO of Boldsack media"
+                    title="CEO of Boldsack media"
                   />
                 </div>
                 <div className="mt-4 text-center">
