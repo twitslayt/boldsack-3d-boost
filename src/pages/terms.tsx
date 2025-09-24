@@ -1,4 +1,4 @@
-import SEOHead from "@/components/SEOHead";
+import SEOHead from "@/components/seohead";
 import { Card } from "@/components/ui/card";
 
 const Terms = () => {

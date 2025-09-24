@@ -1,4 +1,4 @@
-import SEOHead from "@/components/SEOHead";
+import SEOHead from "@/components/seohead";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
