@@ -13,8 +13,8 @@ import {
   Linkedin,
   Instagram
 } from "lucide-react";
-import ceoFormalImage from "@/assets/ceo-formal.jpg";
-import ceoOutdoorImage from "@/assets/ceo-outdoor.jpg";
+import ceoFormalImage from "@/assets/boldsack-media-owner-1.jpg";
+import ceoOutdoorImage from "@/assets/boldsack-media-owner-3.jpg";
 
 const About = () => {
   const values = [
@@ -58,7 +58,7 @@ const About = () => {
         "@type": "Person",
         "name": "Sidhanta Kumar Behera",
         "jobTitle": "CEO & Founder",
-        "image": "/ceo-formal.jpg",
+        "image": "/boldsack-media-owner-1.jpg",
         "sameAs": [
           "https://www.linkedin.com/in/sidhanta-kumar-behera-90428226b",
           "https://www.instagram.com/aura_siddharth"
