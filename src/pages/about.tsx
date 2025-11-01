@@ -57,12 +57,22 @@ const About = () => {
       "founder": {
         "@type": "Person",
         "name": "Sidhanta Kumar Behera",
-        "jobTitle": "CEO & Founder",
-        "image": "/boldsack-media-owner-1.jpg",
+        "jobTitle": "CEO & Founder of Boldsack Media",
+        "description": "CEO and Founder of Boldsack Media, leading digital marketing agency in Bhadrak, Odisha",
+        "image": [
+          "https://boldsackmedia.com/boldsack-media-owner-1.jpg",
+          "https://boldsackmedia.com/boldsack-media-owner-2.jpg",
+          "https://boldsackmedia.com/boldsack-media-owner-3.jpg"
+        ],
         "sameAs": [
           "https://www.linkedin.com/in/sidhanta-kumar-behera-90428226b",
           "https://www.instagram.com/aura_siddharth"
-        ]
+        ],
+        "alumniOf": "Boldsack Media",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Boldsack Media"
+        }
       },
       "foundingDate": "2019",
       "address": {
@@ -319,7 +329,8 @@ const About = () => {
                   <div className="card-3d overflow-hidden">
                     <img
                       src={ceoFormalImage}
-                      alt="Sidhanta Kumar Behera - CEO and Founder of Boldsack Media in formal business attire"
+                      alt="Sidhanta Kumar Behera CEO Boldsack Media owner founder Bhadrak Odisha digital marketing expert"
+                      title="Sidhanta Kumar Behera - CEO and Founder of Boldsack Media"
                       className="w-full h-64 object-cover"
                       loading="lazy"
                     />
@@ -329,7 +340,8 @@ const About = () => {
                   <div className="card-3d overflow-hidden">
                     <img
                       src={ceoOutdoorImage}
-                      alt="Sidhanta Kumar Behera - Boldsack Media CEO in professional outdoor setting"
+                      alt="Boldsack Media CEO Sidhanta Kumar Behera founder owner Boldsack digital marketing agency"
+                      title="Sidhanta Kumar Behera - Boldsack Media CEO and Founder"
                       className="w-full h-64 object-cover"
                       loading="lazy"
                     />

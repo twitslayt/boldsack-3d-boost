@@ -226,10 +226,10 @@ const Home = () => {
                 <div className="aspect-square overflow-hidden rounded-xl">
                   <img
                     src={ceoFormalImage}
-                    alt="CEO of Boldsack media"
+                    alt="Sidhanta Kumar Behera CEO Boldsack Media owner founder Bhadrak Odisha digital marketing"
                     className="w-full h-full object-cover object-center"
                     loading="eager"
-                    title="CEO of Boldsack media"
+                    title="Sidhanta Kumar Behera - CEO Boldsack Media"
                   />
                 </div>
                 <div className="mt-4 text-center">
@@ -242,10 +242,10 @@ const Home = () => {
                 <div className="aspect-square overflow-hidden rounded-xl">
                   <img
                     src={ceoCasualImage}
-                    alt="CEO of Boldsack media"
+                    alt="Boldsack CEO Sidhanta Kumar Behera Boldsack Media owner founder digital marketing expert"
                     className="w-full h-full object-cover object-center"
                     loading="eager"
-                    title="CEO of Boldsack media"
+                    title="Sidhanta Kumar Behera - Boldsack Media Founder"
                   />
                 </div>
                 <div className="mt-4 text-center">
@@ -258,10 +258,10 @@ const Home = () => {
                 <div className="aspect-square overflow-hidden rounded-xl">
                   <img
                     src={ceoOutdoorImage}
-                    alt="CEO of Boldsack media"
+                    alt="Boldsack Media owner Sidhanta Kumar Behera CEO founder Boldsack Bhadrak Odisha"
                     className="w-full h-full object-cover object-center"
                     loading="eager"
-                    title="CEO of Boldsack media"
+                    title="Sidhanta Kumar Behera - Boldsack Owner & CEO"
                   />
                 </div>
                 <div className="mt-4 text-center">

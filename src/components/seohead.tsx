@@ -32,6 +32,7 @@ const SEOHead = ({
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={ogImage} />
+      <meta property="og:image:alt" content="Boldsack Media - Digital Marketing Agency in Bhadrak, Odisha" />
       <meta property="og:site_name" content="Boldsack Media" />
       
       {/* Twitter */}
