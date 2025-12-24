@@ -116,8 +116,8 @@ const Footer = () => {
                 <MapPin className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="text-sm text-muted-foreground">
-                    Bhadrak, Odisha<br />
-                    India
+                    Jireigadi, Barapur, Basudevpur<br />
+                    Bhadrak, Odisha - 756125, India
                   </p>
                 </div>
               </div>
@@ -133,10 +133,10 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-primary flex-shrink-0" />
                 <a 
-                  href="mailto:ceo@boldsack.in" 
+                  href="mailto:boldsack.media@gmail.com" 
                   className="text-sm text-muted-foreground hover:text-primary transition-colors"
                 >
-                  ceo@boldsack.in
+                  boldsack.media@gmail.com
                 </a>
               </div>
             </div>
