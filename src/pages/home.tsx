@@ -5,13 +5,16 @@ import SEOHead from "@/components/seohead";
 import { 
   TrendingUp, 
   Target, 
-  Palette, 
-  Search, 
   Users, 
   Award,
   ArrowRight,
   Play,
-  Star
+  Star,
+  Camera,
+  Handshake,
+  BarChart3,
+  PenTool,
+  Megaphone
 } from "lucide-react";
 import ceoCasualImage from "@/assets/boldsack-media-owner-2.jpg";
 import ceoFormalImage from "@/assets/boldsack-media-owner-1.jpg";
@@ -27,24 +30,29 @@ const Home = () => {
 
   const services = [
     {
-      icon: <Target className="w-8 h-8" />,
-      title: "Creative Strategy",
-      description: "Unique marketing strategies tailored to your brand's goals, ensuring your message stands out and resonates effectively.",
+      icon: <Camera className="w-8 h-8" />,
+      title: "Content Creation",
+      description: "High-quality visual and written content that captures attention and drives engagement across all platforms.",
     },
     {
-      icon: <TrendingUp className="w-8 h-8" />,
-      title: "Digital Marketing",
-      description: "Leverage digital platforms to enhance online presence through SEO, social media, and content marketing.",
+      icon: <Handshake className="w-8 h-8" />,
+      title: "Influencer Collaboration",
+      description: "Strategic partnerships with influencers to amplify your brand reach and connect with target audiences.",
     },
     {
-      icon: <Palette className="w-8 h-8" />,
-      title: "Brand Development",
-      description: "Build strong brand identities that reflect your values and vision, creating lasting marketplace impressions.",
+      icon: <BarChart3 className="w-8 h-8" />,
+      title: "Business Growth Analysis",
+      description: "Data-driven insights and analysis to identify growth opportunities and optimize your business strategy.",
     },
     {
-      icon: <Search className="w-8 h-8" />,
-      title: "Market Research",
-      description: "In-depth market research to understand your audience and competitors, enabling informed strategic decisions.",
+      icon: <PenTool className="w-8 h-8" />,
+      title: "Content Writing",
+      description: "Compelling copywriting and content that tells your brand story and resonates with your audience.",
+    },
+    {
+      icon: <Megaphone className="w-8 h-8" />,
+      title: "Public Relations",
+      description: "Strategic PR management to build reputation, manage communications, and enhance brand credibility.",
     },
   ];
 
@@ -180,7 +188,7 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
             {services.map((service, index) => (
               <Card key={index} className="card-3d p-8 text-center space-y-6 hover:scale-105 transition-transform duration-300">
                 <div className="mx-auto w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-2xl flex items-center justify-center text-white">
